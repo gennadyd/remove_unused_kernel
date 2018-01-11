@@ -21,3 +21,6 @@ Unattended-upgrades version 0.90 supports a new configuration variable that make
 Unattended-Upgrade::Remove-New-Unused-Dependencies "false"
 ```
 The way this is designed, it is important that you let unattended-upgrades handle installion of security updates. Otherwise unattended-uprades will not remove old kernels and you may have to do some manual removing of kernels.
+
+
+#### [Reference](https://help.ubuntu.com/community/RemoveOldKernels)
