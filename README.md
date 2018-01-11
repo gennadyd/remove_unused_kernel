@@ -24,3 +24,4 @@ The way this is designed, it is important that you let unattended-upgrades handl
 
 
 #### [Reference](https://help.ubuntu.com/community/RemoveOldKernels)
+#### [Seea also](https://www.hiroom2.com/2016/05/18/ubuntu-16-04-auto-apt-update-and-apt-upgrade/)
