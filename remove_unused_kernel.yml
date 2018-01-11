@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: Enable Unattended Upgrades to Remove Unneeded Kernels Automatically
+    lineinfile: dest=/etc/apt/apt.conf.d/50unattended-upgrades
+                regexp='^//Unattended-Upgrade::Remove-Unused-Dependencies "false";' line='Unattended-Upgrade::Remove-Unused-Dependencies "true";'
+                state=present
